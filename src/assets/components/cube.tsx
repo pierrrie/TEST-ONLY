@@ -27,7 +27,7 @@ const Cube = ({ activeCategory, onCategoryChange }: CubeProps) => {
     setRotation(-(activeCategory - 1) * angle + offset);
     const timer = setTimeout(() => setTextVisible(true), 1000);
     return () => clearTimeout(timer);
-  }, [activeCategory]);
+  }, [activeCategory, angle, offset]);
 
   return (
     <>

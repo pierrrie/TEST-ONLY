@@ -16,7 +16,7 @@ React приложение с TypeScript, SCSS и Swiper
 1. **Клонируйте репозиторий**
 
    ```bash
-   git clone <>
+   git clone <https://github.com/pierrrie/TEST-ONLY.git>
    cd my-app
 
    ```
